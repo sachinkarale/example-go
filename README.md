@@ -5,7 +5,7 @@ This guide will walk you through deploying a Go application on [Deis Workflow][]
 ## Usage
 
 ```console
-$ git clone https://github.com/deis/example-go.git
+$ git clone https://github.com/sachinkarale/example-go.git
 $ cd example-go
 $ deis create
 Creating Application... done, created allied-question
