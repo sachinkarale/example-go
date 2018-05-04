@@ -26,7 +26,7 @@ func poweredByHandler(w http.ResponseWriter, r *http.Request) {
 	if release == "" {
 		release = "<unknown>"
 	}
-	powered := os.Getenv("POWERED_BY")
+	powered := os.Getenv("!!!POWERED_BY!!!")
 	if powered == "" {
 		powered = "Deis"
 	}
